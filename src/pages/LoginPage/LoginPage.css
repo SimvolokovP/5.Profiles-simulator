@@ -1,0 +1,73 @@
+.login-page__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-page__form {
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+    overflow-y: auto;
+    width: 100%;
+    padding: 10px;
+    padding-bottom: 40px;
+}
+
+.login-page__form label {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.login-page__form label span {
+    font-size: 22px;
+    color: #000;
+}
+
+.login-page__info {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 35px;
+    align-items: center;
+}
+
+.login-page__title {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 36px;
+    color: #000;
+}
+
+.login-page__text {
+    margin: 0;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.login-page__input {
+    max-width: 100%;
+}
+
+.login-page__submit {
+    margin: 0 auto;
+    margin-top: 40px;
+    height: 40px;
+    width: 80px;
+}
+
+.avatar-swiper {
+    max-width: 320px;
+    border: 2px solid #000;
+}
+
+.awatar-swiper__slide {
+    user-select: none;
+    display: flex !important; 
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    color: #000;
+}

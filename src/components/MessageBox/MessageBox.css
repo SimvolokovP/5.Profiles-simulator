@@ -1,0 +1,31 @@
+.message {
+    position: fixed;
+    width: 100%;
+    padding: 8px 0;
+    background-color: #000;
+    color: #fff;
+    left: 0;
+    transform: translateY(0%);
+    top: 0;
+    transition: all .8s ease-in-out;
+    z-index: 2;
+}
+
+.message.hidden {
+    transform: translateY(-100%);
+}
+
+.message__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.message__close {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 32px;
+    padding: 0;
+}

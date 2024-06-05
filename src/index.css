@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&family=Pixelify+Sans:wght@400..700&display=swap');
+@import 'normalize.css';
+@import 'media.css';
+
+body {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #CDCDCD;
+    background-image: url(../src/assets/background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+    color: #000;
+}
+
+p {
+    color: #BBBCBF;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.btn-reset {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.btn {
+    background-image: url(../src/assets/btb-back.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    transition: all .3s ease-in-out;
+}
+
+.btn.disabled {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.main {
+    padding-top: 130px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1220px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+::-webkit-scrollbar {
+    width: 4px;
+    border-radius: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #000;
+}
